@@ -1,0 +1,10 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#111;color:#fff}
+.hero{height:100vh;background:url('images/foto-principal.jpg') center/cover;display:flex;align-items:center;justify-content:center}
+.overlay{background:rgba(0,0,0,.45);padding:30px;border-radius:20px;text-align:center}
+h1{font-size:3rem}
+.countdown,.spotify,.gallery,.letter{padding:40px 20px;max-width:1000px;margin:auto}
+#timer{font-size:2rem;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.grid img{width:100%;border-radius:15px}
+.letter p{font-size:1.1rem;line-height:1.7}
